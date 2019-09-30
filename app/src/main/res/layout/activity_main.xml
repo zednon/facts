@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:padding="50dp"
+android:id="@+id/relativeLayout"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/moreFact"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/white"
+        android:text="show an other cat fact" />
+    <!--Button for more facts-->
+
+    <TextView
+        android:id="@+id/catFact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cat Facts!"
+        android:textColor="@android:color/white"
+
+        android:textColorHint="@android:color/transparent"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
+    <!--Title at top of screen-->
+    <TextView
+        android:id="@+id/Fact"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="333dp"
+        android:text="@string/cats_are_believed_to_be_the_only_mammals_who_don_t_taste_sweetness"
+        android:textColor="#70ffffff"
+        android:textSize="24sp" />
+    <!--Cat Fact-->
+
+</RelativeLayout>

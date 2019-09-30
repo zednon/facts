@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fun Facts</string>
+    <string name="textview">TextView</string>
+    <string name="did_you_know">Did you know?</string>
+    <string name="button">Button</string>
+    <string name="cats_are_believed_to_be_the_only_mammals_who_don_t_taste_sweetness">Cats are believed to be the only mammals who don\'t taste sweetness.</string>
+</resources>
